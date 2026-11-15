@@ -58,6 +58,12 @@ export type TechKey =
 
 export type TechCategory = 'Frontend' | 'Backend' | 'Dados' | 'DevOps' | 'Qualidade';
 
+export interface SkillGroup {
+  title: string;
+  icon: IconName;
+  items: string[];
+}
+
 export interface Tech {
   label: string;
   category: TechCategory;
