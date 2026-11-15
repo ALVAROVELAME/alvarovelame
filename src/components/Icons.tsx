@@ -25,6 +25,14 @@ const strokeIcons: Record<StrokeIconName, ReactNode> = {
       <path d="M6 18h.01" />
     </>
   ),
+  server: (
+    <>
+      <rect x="3" y="3" width="18" height="7" rx="2" />
+      <rect x="3" y="14" width="18" height="7" rx="2" />
+      <path d="M7 6.5h.01M7 17.5h.01" />
+      <path d="M11 6.5h6M11 17.5h6" />
+    </>
+  ),
   docs: (
     <>
       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />

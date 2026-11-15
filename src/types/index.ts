@@ -8,6 +8,7 @@ export type IconName =
   | 'external'
   | 'code'
   | 'api'
+  | 'server'
   | 'docs'
   | 'sun'
   | 'moon'
